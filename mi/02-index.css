@@ -1,0 +1,120 @@
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    background-color: #F5F5F5;
+}
+header{
+    background-color: #F0F0F0;
+    height: 10vw;
+    text-align: center; 
+    padding-top: 2vw;     
+}
+form input{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+form span:nth-child(1){
+    position: absolute;
+    top: 4vw;
+    left: 0;
+}
+form span:nth-child(3){
+    position: absolute;
+    top: 4vw;
+    right: 0;
+}
+/*内容*/
+.tel{
+    background-color: white;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 10vw;
+    padding: 8vw 0;
+}
+.tel p{
+    width: 40vw;
+    margin: 0 auto;
+}
+.first{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    margin-top: 0vw;
+    padding: 10vw 5vw; 
+}
+.first figure{
+    margin-bottom: 10vw;
+}
+.first figure img{
+    width: 22vw;
+}
+.first figure figcaption{
+    margin-top: 7vw;
+    text-align: center;
+}
+/**/
+.panel{
+    background-color: white;
+    width: 100%;
+    margin-top: 3vw;
+    padding: 8vw 0;
+    margin-bottom: 0;
+}
+.panel p{
+    width: 40vw;
+    margin: 0 auto;
+}
+.second{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+     
+    padding: 8vw 5vw;
+}
+.second figure{
+    margin-bottom: 10vw;
+}
+.second figure img{
+    width: 18vw;
+    margin-left: 3vw;
+}
+.second figure figcaption{
+    margin-top: 7vw;
+    text-align: center;
+}
+.foot{
+    width: 80vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+}
+.foot_content{
+    box-sizing: border-box;
+    padding-top: 3vw;
+}
+.foot_content span{
+    width: 6vw;
+    height: 5vw;
+    text-align: center;
+}
+.foot_content p{
+    font-size: 0.7rem;
+    color: gray;
+}
+.foot_content a:hover{
+    color: orange; 
+}
+.foot_content a p:hover{
+    color: orange; 
+    text-decoration: none;  
+}
+
+

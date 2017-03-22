@@ -1,0 +1,179 @@
+html{
+    font-size: 16px;
+}
+body,p{
+    margin: 0px;
+    overflow-x: hidden;
+}
+nav{
+    
+    width: 100%;
+    background-color:#E58335;
+    padding: 2vw 0;
+    opacity: 0.6;
+}
+.container{
+    width: 90vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+nav .container img{
+    width: 7vw;        
+}
+nav .container span{
+    position: relative;
+    left: 7vw;
+}
+nav .container .reg{
+    position: relative;
+    left: 2vw;
+}
+nav .container form{
+    display: inline-block;
+}
+nav .container form input{
+    width: 60vw;
+    height: 7vw;
+    border: rgba(0, 0, 0, 0);
+    border-radius: 1vw;
+}       
+nav .container span{
+    font-size:0.8rem;
+    color: #F2EAFF;
+}
+/*滚动*/
+/*#carousel-example-generic{
+    z-index: 1;
+}*/
+.item{
+    width: 100%;   
+}
+.item img{
+    width: 100vw;
+    /*margin-left: 10vw;*/
+}
+.carousel-indicators{
+    position: absolute;
+    left: 90%;  
+}
+.carousel-indicators{
+    margin-bottom: -1vw;
+}
+.news{
+    width: 100%;
+    background-color: sandybrown;
+    
+}
+/*内容*/
+.center_content{
+    overflow: hidden;
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+}
+.center_content .one{
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+    justify-content: space-around;  
+}
+.center_content .one img{
+    width: 30vw;
+}
+/**/
+.two div{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.two div .introduce{
+    display: inline-block;
+    width: 55vw;  
+    position: relative;
+    right: 5vw;
+}
+.two div .introduce p:nth-child(1){
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.two div .introduce p:nth-child(2){
+    font-size: 0.7rem;
+    color: gray;
+}
+.two div .introduce span{
+    font-size: 1rem;
+    color: red;
+}
+.two div img{
+    width: 25vw;
+    height: 30vw;
+}
+/*底部*/
+
+.foot{
+    width: 80vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+}
+.foot_content{
+    box-sizing: border-box;
+    padding-top: 3vw;
+}
+.foot_content a{
+    text-align: center;
+}
+.foot_content p{
+    font-size: 0.7rem;
+    color: gray; 
+    position:relative;
+    left: -0.9vw; 
+}
+.foot_content a div{
+    width: 5vw;
+    height: 5vw;
+}
+.foot_content a .pic1{  
+    background:url(images1/b3.png);
+    background-repeat: no-repeat;
+    background-size: 5vw  40vw;
+    background-position: 0 -35vw;   
+}
+.pic2{
+    background:url(images1/b3.png) no-repeat  0 -5vw/5vw 40vw ;
+}
+.pic3{
+    background:url(images1/b3.png) no-repeat  0 -15vw/5vw 40vw ;
+}
+.pic4{
+    background:url(images1/b3.png) no-repeat  0 -25vw/5vw 40vw ;
+}
+.foot .foot_content a .pic1:hover{ 
+    background:url(images1/b3.png) no-repeat  0 -30vw/5vw 40vw ;  
+}
+.foot .foot_content a .pic2:hover{ 
+    background:url(images1/b3.png) no-repeat  0 0/5vw 40vw ;  
+}
+.foot .foot_content a .pic3:hover{ 
+    background:url(images1/b3.png) no-repeat  0 -10vw/5vw 40vw ;  
+}
+.foot .foot_content a .pic4:hover{ 
+    background:url(images1/b3.png) no-repeat  0 -20vw/5vw 40vw ;  
+}
+
+
+ 
+
+
+
+/*.foot_content a:hover{
+    color: orange; 
+}
+.foot_content a p:hover{
+    color: orange; 
+    text-decoration: none;  
+}*/

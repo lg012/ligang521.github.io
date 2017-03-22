@@ -1,0 +1,115 @@
+html{
+    font-size: 16px;
+}
+body,p{
+    margin: 0px;
+}
+main{
+    width: 100%;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.reg{
+    width: 100%;
+    height: 70vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    
+
+    /*background-color: palegoldenrod;*/
+}
+.reg>img{
+    height: 20vw;
+}
+.reg>figure{
+    margin: 0;
+    align-self: center;
+    position: relative;
+    left: -18%;
+}
+.reg>figure>figcaption{
+    position: relative;
+    left: -15%;
+}
+.reg>figure>img{
+    width: 18vw;
+}
+.tel>form>input{
+    width: 80vw;
+    height: 10vw;
+    border: none;
+}
+.tel>form>input:nth-child(1){
+    border-top-right-radius: 3vw;
+    border-top-left-radius: 3vw;
+    border-bottom:1px solid gray;
+}
+.tel>form>input:nth-child(3){
+    border-bottom-right-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    box-shadow: 0 0 1px 2px lightgray;
+}
+form span:nth-child(4){
+    font-size: 1rem;
+}
+.liji a button{
+    width: 80vw;
+    color: white;
+    margin-top: 10vw;
+    padding: 3vw 0;
+    background-color: lightskyblue;
+    border-radius: 8vw;
+    border: none;
+}
+.else div:nth-child(1){
+    width: 100vw;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+.else div:nth-child(1) img{
+    width: 13vw;   
+}
+.else div:nth-child(2){
+    font-size: 0.8rem;
+    margin-top: 10vw;
+    text-align: center;
+    color: gray;
+}
+.else div:nth-child(2) span:nth-child(1){
+    border-right: 1px solid gray;
+    padding-left: 4vw;
+}
+/*固定导航条*/
+footer{
+    width: 80%;
+    margin: 10vw auto;
+    margin-bottom: 0;
+}
+footer div:nth-child(1){
+    font-size: 0.8rem;
+    color: gray;
+    height: 10vw;
+    line-height: 10vw;
+    text-align: center; 
+}
+footer div:nth-child(1) span:nth-child(1){
+    border: none;
+    color: black;
+}
+footer div:nth-child(1) span{
+    border-left: 1px solid grey;
+    padding-left: 3vw;
+    text-align: center;
+}
+footer div:nth-child(2){
+    font-size: 0.7rem;
+    color: gray;
+    text-align: center;
+}

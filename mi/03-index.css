@@ -1,0 +1,88 @@
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    background-color: #F5F5F5;
+}
+header{
+    background-color: #F0F0F0;
+    height: 10vw;
+    text-align: center; 
+    padding-top: 2vw;     
+}
+form input{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+form span:nth-child(1){
+    position: absolute;
+    top: 4vw;
+    left: 0;
+}
+form span:nth-child(3){
+    position: absolute;
+    top: 4vw;
+    right: 0;
+}
+/*内容*/
+.shoping img{
+    width: 100vw;
+}
+.commodity{
+    width: 100%;
+    margin: 0 auto；
+}
+.commodity a{
+    display: inline-block;
+    background-color: white;
+    width: 45vw;
+    padding: 5vw;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.commodity a:nth-child(1){   
+    margin-left: 4vw;  
+    float: left;
+}
+.commodity a:nth-child(2){
+    margin-right: 4vw;  
+    float: right;
+}
+.commodity a:hover{
+    background:#FE5720;
+    color: white; 
+}
+
+
+/*底部*/
+.foot{
+    width: 80vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+}
+.foot_content{
+    box-sizing: border-box;
+    padding-top: 3vw;
+}
+.foot_content span{
+    width: 6vw;
+    height: 5vw;
+    text-align: center;
+}
+.foot_content p{
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.foot_content a:hover{
+    color: orange; 
+}
+.foot_content a p:hover{
+    color: orange; 
+    text-decoration: none;  
+}

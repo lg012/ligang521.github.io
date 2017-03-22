@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="author" content="范珍珍">
+        <title></title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="01-index.css">
+
+        
+        <style>
+            body{
+                margin: 0px;
+            }
+            .mui-bar-nav{
+                box-shadow: none;
+                background:rgba(0,0,0,0);
+            }
+            .mui-bar-nav:active{
+                background:rgba(1,1,2,1);
+                transition: background 1s;  
+                -moz-transition:background 1s;
+            }
+        </style>
+    </head>
+    <body>
+<!--顶部导航条-->
+        <nav class="mui-bar mui-bar-nav navbar-fixed-top">
+            <div class="">
+                <img src="images1/01.png" alt="logo">
+                <form action="#">
+                    <span class="glyphicon glyphicon-search"></span>
+                    <input type="text" placeholder="&#x3000;&#x3000;搜索商品名称">
+                </form>
+                <span class="reg">登录</span>
+            </div>
+            
+        </nav>
+        <!--轮播图-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images1/02.jpg" alt="...">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img src="images1/03.jpg" alt="...">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img src="images1/04.jpg" alt="...">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+          </div>
+        </div>        
+        <div class="news">
+            <p>商城早报</p>
+        <div class="center_content">
+            <section class="one">
+                <img src="images1/a1.jpg" alt="">
+                <img src="images1/a6.jpg" alt="">
+                <img src="images1/a7.jpg" alt="">
+            </section>
+            <section class="two">
+                <div>
+                    <img src="images1/a7.jpg" alt="">
+                    <div class="introduce">
+                        <p>小米Max全网通</p>
+                        <p>6.44大屏黄金尺寸/4850mAh大电量指纹识别/2.5D玻璃</p>
+                        <span>1499&#x3000;起</span>
+                    </div>
+                </div>
+                <div>
+                    <img src="images1/a7.jpg" alt="">
+                    <div class="introduce">
+                        <p>小米Max全网通</p>
+                        <p>6.44大屏黄金尺寸/4850mAh大电量指纹识别/2.5D玻璃</p>
+                        <span>1499&#x3000;起</span>
+                    </div>
+                </div>     
+                <div>
+                    <img src="images1/a7.jpg" alt="">
+                    <div class="introduce">
+                        <p>小米Max全网通</p>
+                        <p>6.44大屏黄金尺寸/4850mAh大电量指纹识别/2.5D玻璃</p>
+                        <span>1499&#x3000;起</span>
+                    </div>
+                </div>
+                
+                <div>
+                    <img src="images1/a7.jpg" alt="">
+                    <div class="introduce">
+                        <p>小米Max全网通</p>
+                        <p>6.44大屏黄金尺寸/4850mAh大电量指纹识别/2.5D玻璃</p>
+                        <span>1499&#x3000;起</span>
+                    </div>
+                </div>            
+                <div>
+                    <img src="images1/a7.jpg" alt="">
+                    <div class="introduce">
+                        <p>小米Max全网通</p>
+                        <p>6.44大屏黄金尺寸/4850mAh大电量指纹识别/2.5D玻璃</p>
+                        <span>1499&#x3000;起</span>
+                    </div>
+                </div>          
+            </section>
+        </div>    
+        
+        <script src="bootstrap/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script> 
+            $(document) .ready(function(){
+                $(window) .scroll(function() {
+                    var top = $("center_content") .offset() .top; //获取指定位置
+                    var scrollTop = $(window) .scrollTop();  //获取当前滑动位置
+                    if(scrollTop > top){                 //滑动到该位置时执行代码
+                      $(".mui-bar-nav") .addClass("active");
+                    }else{
+                      $(".mui-bar-nav") .removeClass("active");
+                    }
+                 });
+                });        
+        </script>
+    </body>
+</html>
